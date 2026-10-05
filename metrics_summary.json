@@ -1,0 +1,38 @@
+{
+  "selected_model": "Random Forest",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 3,
+    "model__n_estimators": 300
+  },
+  "test_roc_auc": 0.877142857142857,
+  "test_pr_auc": 0.7649784555389983,
+  "repeated_cv_auc_mean": 0.7756111111111111,
+  "repeated_cv_auc_std": 0.03126892070194379,
+  "threshold": 0.3999999999999999,
+  "at_default_0.5": {
+    "threshold": 0.5,
+    "Recall (bad)": 0.8833333333333333,
+    "Precision (bad)": 0.5888888888888889,
+    "Specificity": 0.7357142857142858,
+    "Bad approved (FN)": 7.0,
+    "Good rejected (FP)": 37.0,
+    "Total cost": 72.0
+  },
+  "at_optimal_threshold": {
+    "threshold": 0.4,
+    "Recall (bad)": 0.9166666666666666,
+    "Precision (bad)": 0.47413793103448276,
+    "Specificity": 0.5642857142857143,
+    "Bad approved (FN)": 5.0,
+    "Good rejected (FP)": 61.0,
+    "Total cost": 86.0
+  },
+  "top_shap_features": [
+    "cat__Checking account_no account",
+    "cat__Checking account_little",
+    "num__Duration",
+    "num__Credit amount",
+    "num__Credit per month"
+  ]
+}

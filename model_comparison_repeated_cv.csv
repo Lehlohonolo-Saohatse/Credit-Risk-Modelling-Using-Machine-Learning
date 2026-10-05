@@ -1,0 +1,7 @@
+Model,AUC mean,AUC std,Recall(bad) mean
+Random Forest,0.7756,0.0313,0.7122
+XGBoost,0.7621,0.0288,0.6811
+Logistic Regression,0.7537,0.0319,0.7289
+Extra Trees,0.7516,0.0328,0.74
+Decision Tree,0.7063,0.0263,0.6222
+Dummy (prior),0.5,0.0,0.0
