@@ -18,7 +18,7 @@ def load_artifacts():
 pipeline, threshold, model_name = load_artifacts()
 
 st.title('Credit Risk Prediction')
-st.caption(f'Model: {model_name} | Trained on the German Credit (Statlog) data | Decision threshold: {threshold:.2f}' | by Lehlohonolo Saohatse)
+st.caption(f'Model: {model_name} | Trained on the German Credit (Statlog) data | Decision threshold: {threshold:.2f} | by Lehlohonolo Saohatse')
 st.write('Enter applicant details to estimate the probability that the credit is a **bad** risk.')
 
 JOBS = {0: '0 - Unskilled, non-resident', 1: '1 - Unskilled, resident', 2: '2 - Skilled', 3: '3 - Highly skilled'}
